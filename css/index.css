@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.blue{
+    background: #0475ba;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.text-white{
+    color: white;
+}
+.text-blue{
+    color:#0475ba ;
+}
+.justify{
+    justify-content: space-between;
+}
+
+/* BARRE DE NAVIGATION */
+header P{
+    margin: 22px;
+}
+header div{
+    margin-left: 64px;
+    margin-top: 22px;
+}
+header div a {
+    margin: 16px;
+}
+/* BARRE DE NAVIGATION */
+
+/*PROFIL*/
+.profil-1{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid red;
+
+}
+.profil-10, .profil-1 img{
+    margin: 50px 100px;
+}
+.profil-1 img{
+    border-radius: 50%;
+}
+.profil-10 p{
+    font-weight: bold;
+    font-size: large;
+}
+/*PROFIL*/
+
+
+/* CLASS POUR  CENTRER LES DIVS (Presentaion, experiences pro, formationset passions */
+.mise-en-page{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid red;
+    width: 60%;
+    padding: 32px 0 ;
+}
+/* CLASS POUR  CENTRER LES DIVS (Presentaion, experiences pro, formationset passions */
+
+/* FOOTER */
+.footer-1{
+    border: solid red;
+    width: 40%;
+    justify-content: space-between;
+}
+.footer-1 div{
+    margin: 40px;
+}
+.footer-1 div a i{
+    margin-right: 5px;
+}
+/* FOOTER */
