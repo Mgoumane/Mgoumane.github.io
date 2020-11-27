@@ -3,6 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+ section{
+    padding: 0px 10px;
+}
 .flex{
     display: flex;
 }
@@ -40,7 +43,6 @@ header div a {
 .profil-1{
     margin-left: auto;
     margin-right: auto;
-    border: solid red;
 
 }
 .profil-10, .profil-1 img{
@@ -60,7 +62,6 @@ header div a {
 .mise-en-page{
     margin-left: auto;
     margin-right: auto;
-    border: solid red;
     width: 60%;
     padding: 32px 0 ;
 }
@@ -68,7 +69,6 @@ header div a {
 
 /* FOOTER */
 .footer-1{
-    border: solid red;
     width: 40%;
     justify-content: space-between;
 }
@@ -79,3 +79,30 @@ header div a {
     margin-right: 5px;
 }
 /* FOOTER */
+
+/* MEDIA QUERIES */
+@media (max-width: 850px){
+    header div{
+        display: none;
+    }
+    .profil-1{
+        flex-direction: column;
+    }
+    .profil-10, .profil-1 img{
+        margin: 30px  30px;
+    }
+    .mise-en-page{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 32px 0 ;
+    }
+    .footer-1{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .footer-1 div{
+        margin: 10px;
+    }
+}
+/* MEDIA QUERIES */
