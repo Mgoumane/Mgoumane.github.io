@@ -1,108 +1,22 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
- section{
-    padding: 0px 10px;
-}
-.flex{
-    display: flex;
-}
-.blue{
-    background: #0475ba;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.text-white{
-    color: white;
-}
-.text-blue{
-    color:#0475ba ;
-}
-.justify{
-    justify-content: space-between;
-}
 
-/* BARRE DE NAVIGATION */
-header P{
-    margin: 22px;
+
+h1{
+    border: red solid;
+}
+h1 span{
+    color: #023047;
 }
 header div{
-    margin-left: 64px;
-    margin-top: 22px;
+    border: green solid;
 }
-header div a {
-    margin: 16px;
-}
-/* BARRE DE NAVIGATION */
 
-/*PROFIL*/
-.profil-1{
-    margin-left: auto;
-    margin-right: auto;
-
+header{
+    background: #023047;
+    color: white;
 }
-.profil-10, .profil-1 img{
-    margin: 50px 100px;
-}
-.profil-1 img{
-    border-radius: 50%;
-}
-.profil-10 p{
-    font-weight: bold;
-    font-size: large;
-}
-/*PROFIL*/
+.profil{
+    height: 400px;
+    background-color: blue;
 
 
-/* CLASS POUR  CENTRER LES DIVS (Presentaion, experiences pro, formationset passions */
-.mise-en-page{
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding: 32px 0 ;
 }
-/* CLASS POUR  CENTRER LES DIVS (Presentaion, experiences pro, formationset passions */
-
-/* FOOTER */
-.footer-1{
-    width: 40%;
-    justify-content: space-between;
-}
-.footer-1 div{
-    margin: 40px;
-}
-.footer-1 div a i{
-    margin-right: 5px;
-}
-/* FOOTER */
-
-/* MEDIA QUERIES */
-@media (max-width: 850px){
-    header div{
-        display: none;
-    }
-    .profil-1{
-        flex-direction: column;
-    }
-    .profil-10, .profil-1 img{
-        margin: 30px  30px;
-    }
-    .mise-en-page{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        padding: 32px 0 ;
-    }
-    .footer-1{
-        flex-direction: column;
-        padding: 40px 20px;
-    }
-    .footer-1 div{
-        margin: 10px;
-    }
-}
-/* MEDIA QUERIES */
