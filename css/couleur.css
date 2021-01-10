@@ -1,0 +1,18 @@
+section{
+    background-color: rgb(226, 226, 235)
+}
+
+header{
+    color: white;
+    background: #023047;
+}
+
+.background-titres{
+    background: #023047;
+    color: white;
+}footer{
+    background:#023047 ;
+}
+.not-acquired{
+    color:rgb(226, 226, 235) ;
+}

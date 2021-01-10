@@ -1,22 +1,81 @@
-
-
-h1{
-    border: red solid;
-}
-h1 span{
-    color: #023047;
+/********************************************HEADER *************************************/
+header{
+    margin-bottom: 5%;
 }
 header div{
-    border: green solid;
+    padding: 1%;
 }
 
-header{
-    background: #023047;
-    color: white;
+/******************************************** FIN HEADER *********************************************/
+
+/******************************************** MON CV *****************************************************/
+.mon-cv{
+    margin: 2%;
 }
-.profil{
-    height: 400px;
-    background-color: blue;
+.profil img{
+    max-width: 150px;
+}
+.mes-coordonnees{
+    margin-top: 70px;
+}
+section{
+    margin-bottom: 2%;
+    padding-top: 2%;
+}
+/******************************************** MON CV *********************************************************/
+
+/******************************************** FOOTER **********************************************************/
+footer{
+    padding: 2%;
+}
+/******************************************** FOOTER *********************************************************/
 
 
+/******************************************** CLASSES EPARPILLEE UN PARTOUT *******************************************/
+i{
+    margin-right: 10px;
+    
 }
+.marge-inf{
+    margin-bottom: 5%;
+}
+.background-titres{
+    display: inline-block;
+    padding: 3px 10px;
+}
+.references ul {
+    list-style:none;
+}
+.arrondis{
+    border-radius: 10px;
+}
+
+/******************************************** CLASSES EPARPILLEE UN PARTOUT*********************************************/
+
+
+
+/* *******************************************************MEDIAS QUERIES ************************************************/
+
+@media(max-width:770px){
+    
+    .mes-coordonnees{
+        margin-top: 0;
+    }
+    
+}
+@media(max-width:1200px){
+    
+    .competences{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+   
+    
+}
+@media(max-width:770px){
+    
+    .competences{
+        flex-direction: row;
+    }
+}
+/* *******************************************************MEDIAS QUERIES ************************************************/

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: poppins;
+    src: url(./../Polices/Poppins-Regular.ttf);
+}
+main{
+    font-family: poppins;
+    font-size: large;
+}
+.fw-bold{
+    font-weight: bold;
+}
+footer a{
+    color: white;
+}
+ a{
+    color: black;
+}
+.nom-size{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.comm-size{
+    font-size: small;
+}
+.text-size-base-de-donnees{
+    font-size: smaller ;
+}
+.italique{
+    font-style: italic;
+}
